@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header>
+            <svg>
+                <image xlink:href="img/RH_logo.svg" width="400px" height="300px" x="10px" y="10px"></image>
+            </svg>
+            <h1>Curriculum Vitae</h1>
+            <h2>Raldin Dilone Hidalgo Tirado</h2>
+            <h3>20 de Noviembre, 1987</h3>
+            <h3>Santo Domingo, República Dominicana</h3>  
+        </header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="pages/educacion.html">Educación</a>
+            <a href="pages/experiencia.html">Experiencia</a>
+        </nav> 
+    <section>
+        <article>
+            <h2>Educación</h2>
+            <table border="1">
+                <thead>
+                    <tr>                        
+                            <th>Año</th>
+                            <th>Institución</th>
+                            <th>Lugar</th>
+                            <th>¿Culminó?</th>                        
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>2008</td>
+                            <td>Western Michigan University</td>
+                            <td>Michigan, USA</td>
+                            <td>Si</td>
+                        </tr>
+                        <tr>
+                            <td>2001</td>
+                            <td>Lic. República de Colombia</td>
+                            <td>Distrito Nacional, RD</td>
+                            <td>Si</td>
+                        </tr>
+                    </tbody>
+                </thead>
+            </table>
+            <form autocomplete="on" name="formulario_de_estudios">
+                <fieldset>
+                    <legend><b>Agregar Estudios</b></legend>
+                    <p>
+                        <label for="fecha">Año:</label>
+                        <select>
+                            <option>Año</option>
+                            <option>2008</option>
+                            <option>2009</option>
+                            <option>2010</option>
+                            <option>2011</option>
+                            <option>2012</option>
+                            <option>2013</option>
+                            <option>2014</option>
+                            <option>2015</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                            <option>2018</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="institucion">Institución</label>
+                        <input type="text" name="institucion" id="institucion" required placeholder="Nombre de la institución">
+                    </p>
+                    <p>
+                        <label for="lugar">Lugar</label>
+                        <input type="text" name="lugar" id="lugar" required placeholder="Lugar donde esta la institución">
+                    </p>
+                        <input type="submit" name="enviar" value="Enviar">
+                </fieldset>                
+            </form>
+        </article>
+    </section>
+    <footer>
+        <label >Teléfono: 829-979-3732</label>
+        <label for="correo">Correo:</label>
+        <a href="mailto:raldin.hidalgo@gmail.com" id="correo" name="correo"> raldin.hidalgo@gmail.com</a>
+        <a href="https://www.linkedin.com/in/raldin-hidalgo-65aa1837/">LinkedIn</a>
+    </footer>
+</body>
+</html>
